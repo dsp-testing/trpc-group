@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    groups:
+      # @trpc packages must be bumped in lockstep
+      trpc:
+        patterns:
+          - "@trpc/server"
+          - "@trpc/react-query"
+          - "@trpc/next"
+          - "@trpc/client"
