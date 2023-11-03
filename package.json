@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@trpc/client": "10.33.0",
-    "@trpc/next": "10.33.0",
-    "@trpc/react-query": "10.33.0",
-    "@trpc/server": "10.33.0"
+    "@trpc/client": "10.43.1",
+    "@trpc/next": "10.43.1",
+    "@trpc/react-query": "10.43.1",
+    "@trpc/server": "10.43.1"
   }
 }
